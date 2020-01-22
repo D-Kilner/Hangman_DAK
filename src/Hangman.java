@@ -59,7 +59,7 @@ public class Hangman {
 				lettersGuessed[i] = "_";
 			}
 			while(guesses > 0 && !hasWon) {
-				System.out.println(currentWord);
+			
 
 				boolean correctGuess = false;
 				System.out.println("you have " + guesses + " incorrect guesses left.");
